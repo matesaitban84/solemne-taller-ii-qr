@@ -1,0 +1,64 @@
+
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Ficha SOS</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background: #edf2f7;
+                    padding: 20px;
+                }
+                .ficha {
+                    background: white;
+                    max-width: 450px;
+                    margin: auto;
+                    padding: 25px;
+                    border-radius: 15px;
+                }
+                h1 { color: #145a86; }
+                p { font-size: 18px; }
+                .boton {
+                    display: block;
+                    padding: 15px;
+                    margin-top: 15px;
+                    color: white !important;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 10px;
+                    font-weight: bold;
+                }
+                .whatsapp { background: #16803c; }
+                .llamada { background: #bd3030; }
+                .aviso { font-size: 13px; color: #666; }
+            </style>
+        </head>
+        <body>
+            <div class="ficha">
+                <h1>Ficha de apoyo SOS</h1>
+                <h2>Sofía Muñoz</h2>
+                <p><b>Referencia:</b> Huechuraba</p>
+                <p><b>Contacto:</b> Luis Muñoz</p>
+                <p><b>Teléfono:</b> 900000004</p>
+                <p><b>Parentesco:</b> Tutor</p>
+                <p><b>Apoyo:</b> Dar tiempo para responder</p>
+
+                <a class="boton whatsapp" href="#" onclick="alert('SIMULACIÓN: mensaje WhatsApp SOS preparado. No se enviará ningún mensaje.'); return false;">
+                    WhatsApp SOS
+                </a>
+
+                <a class="boton llamada"
+                   href="javascript:alert('SIMULACIÓN: llamada de emergencia. No se realizará una llamada real.')">
+                    Simular llamada SOS
+                </a>
+
+                <p class="aviso">
+                    Prototipo académico con participantes ficticios.
+                    La llamada es una simulación.
+                </p>
+            </div>
+        </body>
+        </html>
+        
